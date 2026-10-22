@@ -8,7 +8,7 @@
   "repository": { "type": "git", "url": "git+https://github.com/signwithsigil/cli.git" },
   "license": "MIT",
   "publishConfig": { "access": "public" },
-  "author": "Darklight Interactive <info@signwithsigil.com> (https://www.signwithsigil.com)",
+  "author": "Sigil, by Darklight Interactive <info@signwithsigil.com> (https://www.signwithsigil.com)",
   "type": "module",
   "bin": { "sigil": "bin/sigil.mjs" },
   "files": ["bin", "src", "README.md", "LICENSE"],
