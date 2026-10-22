@@ -1,0 +1,19 @@
+{
+  "name": "@signwithsigil/cli",
+  "version": "1.0.0",
+  "description": "Send documents for e-signature with Sigil from the shell: upload a PDF or Word file, send it as a pact, see who has signed, download the signed copy.",
+  "keywords": ["e-signature", "electronic signature", "esign", "pdf", "contracts", "sigil", "cli", "mcp"],
+  "homepage": "https://docs.signwithsigil.com/cli",
+  "bugs": { "url": "https://github.com/signwithsigil/cli/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/signwithsigil/cli.git" },
+  "license": "MIT",
+  "publishConfig": { "access": "public" },
+  "author": "Darklight Interactive <info@signwithsigil.com> (https://www.signwithsigil.com)",
+  "type": "module",
+  "bin": { "sigil": "bin/sigil.mjs" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test"
+  }
+}
