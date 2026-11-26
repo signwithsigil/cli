@@ -30,7 +30,7 @@ export SIGIL_API_KEY="sgk_…"
 ## Send a document
 
 Fields are [glyphs](https://docs.signwithsigil.com/concepts/glyphs) typed into the document (`\s1\` for the first
-signer's signature, `\d1\` for the date, and so on). Give the file, or a saved template's id, and one `--to` per signer
+signer's signature, `\d1\` for the date, `\e1\` for their email, and so on). Give the file, or a saved template's id, and one `--to` per signer
 in signing order:
 
 ```bash
